@@ -3,6 +3,7 @@ html {
 }
 body {
     background-color: #aaacb5;
+    font-family: 'Inconsolata', monospace;
 }
 .bookshelf {
     width: 80%;
@@ -14,13 +15,12 @@ body {
     background-size: 10px 230px;
     box-shadow: 0 1000px 0 400px #7a7668;
 }
-.book {
+.book-vertical {
     height: 200px;
     width: 40px;
     float: left;
     color: white;
     font-size: 0.9em;
-    font-family: 'Inconsolata', monospace;
     margin-top: 20px;
     transition: transform 0.4s ease;
 }
@@ -28,31 +28,50 @@ body {
     float: left;
     width: 74px;
 }
-.book-tilted > .book {
+.book-tilted > .book-vertical {
     transform: translateY(-3px)
     translateX(15px) rotate(9deg);
 }
-.book:hover {
+.book-vertical:hover {
     transform: scale(1.05);
 }
+.book-tilted:hover {
+    transform: scale(1.05);
+}
+.book-horizontal:hover {
+    transform: scale(1.05);
+}
+
+.book-horizontal {
+    height: 40px;
+    width: 200px;
+    float: right;
+    color: white;
+    font-size: 0.9em;
+    margin-top: 20px;
+    transition: transform 0.4s ease;
+}
+
 .book-green {
     background-color: #008000;
     border-left: 2px solid #198c19;
     border-right: 2px solid #005900;
 }
-.book h2 {
+.book-vertical h2 {
     padding: 0;
     font-size: 1em;
     transform-origin: 0% 0%;
     transform: rotate(0.25turn)
     translateY(-35px);
     width: 170px;
+    font-weight: 500;
 }
-.book h3 {
+.book-vertical h3 {
     padding: 0;
     font-size: 0.7em;
     transform-origin: 0 0;
     transform: rotate(0.25turn)
     translateY(-15px) translateX(-20px);
     width: 150px;
+    font-weight: 100;
 }
