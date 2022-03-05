@@ -52,17 +52,17 @@ body {
 }
 .book-blue {
     background-color: #0C347D;
-    border-left: 2px solid #5470a4;
+    border-left: 2px solid #24488a;
     border-right: 2px solid #092964;
 }
 .book-black {
     background-color: #323232;
-    border-left: 2px solid #7f7f7f;
+    border-left: 2px solid #464646;
     border-right: 2px solid #092964;
 }
 .book-yellow {
     background-color: #eded80;
-    border-left: 2px solid #f6f6bf;
+    border-left: 2px solid #f0f099;
     border-right: 2px solid #d5d573;
     color: black;
 }
