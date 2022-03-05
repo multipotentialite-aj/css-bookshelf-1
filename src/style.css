@@ -72,7 +72,7 @@ body {
 
 .book-tilted {
     float: left;
-    width: 76px;
+    width: 75px;
 }
 .book-tilted > .book {
     transform: translateY(-3px)
