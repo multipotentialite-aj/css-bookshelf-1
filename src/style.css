@@ -10,7 +10,7 @@ body {
     margin: 0 auto;
     border: 10px #a87328 solid;
     overflow: hidden;
-    background: black;
+    background: #523415;
     background-size: 10px 230px;
     box-shadow: 0 1000px 0 400px #7a7668;
 }
@@ -21,7 +21,6 @@ body {
     color: white;
     font-size: 0.9em;
     font-family: 'Inconsolata', monospace;
-    margin-bottom: 10px;
     margin-top: 20px;
     transition: transform 0.4s ease;
 }
@@ -37,9 +36,9 @@ body {
     transform: scale(1.05);
 }
 .book-green {
-    background-color: darkgreen;
-    border-left: 2px solid lightgreen;
-    border-right: 2px solid darkblue;
+    background-color: #008000;
+    border-left: 2px solid #198c19;
+    border-right: 2px solid #005900;
 }
 .book h2 {
     padding: 0;
