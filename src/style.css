@@ -17,8 +17,8 @@ body {
     box-shadow: 0 1000px 0 400px #7a7668;
 }
 
-/* Vertical Books */
-.book-vertical {
+/* Books */
+.book {
     height: 200px;
     width: 40px;
     float: left;
@@ -27,74 +27,64 @@ body {
     margin-top: 20px;
     transition: transform 0.4s ease;
 }
-.book-vertical h2 {
+.book h2 {
     padding: 0;
     font-size: 1em;
     transform-origin: 0% 0%;
     transform: rotate(0.25turn)
     translateY(-35px);
-    width: 170px;
+    width: 180px;
     font-weight: 500;
 }
-.book-vertical h3 {
+.book h3 {
     padding: 0;
     font-size: 0.7em;
     transform-origin: 0 0;
     transform: rotate(0.25turn)
     translateY(-15px) translateX(-20px);
-    width: 150px;
+    width: 160px;
     font-weight: 100;
 }
 .book-green {
     background-color: #008000;
-    border-left: 5px solid #198c19;
-    border-right: 5px solid #005900;
+    border-left: 2px solid #198c19;
+    border-right: 2px solid #005900;
+}
+.book-blue {
+    background-color: #0C347D;
+    border-left: 2px solid #5470a4;
+    border-right: 2px solid #092964;
+}
+.book-black {
+    background-color: #323232;
+    border-left: 2px solid #7f7f7f;
+    border-right: 2px solid #092964;
+}
+.book-yellow {
+    background-color: #eded80;
+    border-left: 2px solid #f6f6bf;
+    border-right: 2px solid #d5d573;
+    color: black;
+}
+.book-yellow h3 {
+    font-weight: 400;
 }
 
 .book-tilted {
     float: left;
-    width: 74px;
+    width: 75px;
 }
-.book-tilted > .book-vertical {
+.book-tilted > .book {
     transform: translateY(-3px)
     translateX(15px) rotate(9deg);
 }
-.book-vertical:hover {
+.book:hover {
     transform: scale(1.05);
 }
 .book-tilted:hover {
     transform: scale(1.05);
 }
 
-.book-horizontal:hover {
-    transform: scale(1.05);
+footer {
+    text-align: center;
 }
-
-/* Horizontal Books */
-.book-horizontal {
-    height: 40px;
-    width: 200px;
-    float: right;
-    color: white;
-    font-size: 0.9em;
-    margin-top: 20px;
-    transition: transform 0.4s ease;
-}
-.book-horizontal h2 {
-    padding: 0;
-    font-size: 1em;
-    transform-origin: 0% 0%;
-    width: 170px;
-    font-weight: 500;
-}
-.book-horizontal h3 {
-    padding: 0;
-    font-size: 0.7em;
-    transform-origin: 0 0;
-    width: 150px;
-    font-weight: 100;
-}
-.book-horizontal-green {
-    background-color: #008000;
-    border-top: 5px solid #198c19;
-    border-bottom: 5px solid #005900;
