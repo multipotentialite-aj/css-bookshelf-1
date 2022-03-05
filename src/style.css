@@ -58,7 +58,7 @@ body {
 .book-black {
     background-color: #323232;
     border-left: 2px solid #464646;
-    border-right: 2px solid #black;
+    border-right: 2px solid black;
 }
 .book-yellow {
     background-color: #eded80;
